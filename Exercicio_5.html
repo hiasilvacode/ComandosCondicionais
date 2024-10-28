@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5 - Classe Eleitoral</title>
+</head>
+<body>
+    <h1>Definindo Classe Eleitoral</h1>
+
+    <script>
+           let nome  = prompt("Digite seu nome...")
+        let idade = prompt("Digite sua idade!")
+
+        if (idade >=18 && idade <=65) {
+            document.write (nome + "eleitor obrigatório!")
+        }
+        else if (idade <=16) { 
+            document.write (nome + "vc n é obrigado a votar!")
+        } 
+        else if (idade >=16 && idade >=65) {
+            document.write (nome + "eleito facultativo!")
+        }
+   
+    </script>
+</body>
+</html>
